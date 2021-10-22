@@ -38,7 +38,7 @@
                     <h4>Phone: {{ $admin->phone }}</h4>
                     <h4>Email {{ $admin->email }}</h4>
                     <h4>Address {{ $admin->address }}</h4>
-                    <a href={{ "editAdminProfile/".$admin->id}} class="btn btn-secondary btn-sm">Edit Profile</a>
+                    <a href={{ "editAdminProfile/".$admin->id}} class="btn btn-dark btn-sm">Edit Profile</a>
 
                 </div>
             </div>

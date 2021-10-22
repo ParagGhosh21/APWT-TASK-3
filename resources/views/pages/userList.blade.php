@@ -14,7 +14,7 @@
 @extends('../layouts.app')
 @section('content')
 <div class="row" >
-    <div class="col-3" style="background: darkblue">
+    <div class="col-3" style="background: white">
         @include('pages.adminSideBar')
     </div>
     <div class="col-9">
@@ -29,13 +29,13 @@
                 @endif
                 {{-- delete message --}}
                 @if(session('user-delete'))
-                <div class="alert alert-danger font-weight-bold w-100 text-center" role="alert">
+                <div class="alert alert-Secondary font-weight-bold w-100 text-center" role="alert">
                     <span class="fw-bold">
                         {{ session('user-delete') }}
                     </span>
                 </div>
                 @endif
-                <h4 class="my-4 fw-bold text-uppercase">User List</h4>
+                <h4 class="my-4 ">User List</h4>
                 <table class="table table-borded table-striped">
                     <tr class="text-center">
                         <th class="px-4">Id</th>
@@ -53,13 +53,13 @@
                         <td class="px-4">{{$user->address}}</td>
                         <td class="px-4">{{$user->phone}}</td>
                         <td class="px-4">
-                            <a class="btn btn-primary btn-sm mx-1" href={{ "editUser/".$user->id }}>Update</a>
-                            <a class="btn btn-danger btn-sm" href={{ "deleteUser/".$user->id }}>Delete</a>
+                            <a class="btn btn-dark btn-sm mx-1" href={{ "editUser/".$user->id }}>Update</a>
+                            <a class="btn btn-dark btn-sm" href={{ "deleteUser/".$user->id }}>Delete</a>
                         </td>
                     </tr>
                     @endforeach
                 </table>
-                <a class="btn btn-primary btn-sm mb-3" href="{{route('addUser')}}">Add User</a>
+                <a class="btn btn-dark btn-sm mb-3" href="{{route('addUser')}}">Add User</a>
             </div>
         </div>
     </div>

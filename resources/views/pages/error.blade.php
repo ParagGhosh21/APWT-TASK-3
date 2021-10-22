@@ -17,7 +17,7 @@
                 You are not allow in this page!
             </div>
             <div class="text-center">
-                <a class="btn btn-primary px-4 btn-sm" href="{{ route('/') }}">Back</a>
+                <a class="btn btn-dark px-4 btn-sm" href="{{ route('/') }}">Back</a>
             </div>
         </div>
     </div>

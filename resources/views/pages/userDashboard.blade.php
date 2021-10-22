@@ -18,7 +18,7 @@
     @extends('../layouts.app')
     @section('content')
     <div class="row">
-        <div class="col-3" style="background: yellow;">
+        <div class="col-3" style="background: white;">
             @include('pages.userSideBar')
         </div>
         <div class="col-9 py-5">
@@ -38,7 +38,7 @@
                     <h4>Phone: {{ $user->phone }}</h4>
                     <h4>Email {{ $user->email }}</h4>
                     <h4>Address {{ $user->address }}</h4>
-                    <a href={{ "editUserProfile/".$user->id}} class="btn btn-danger btn-sm">Edit Profile</a>
+                    <a href={{ "editUserProfile/".$user->id}} class="btn btn-dark btn-sm">Edit Profile</a>
 
                 </div>
             </div>

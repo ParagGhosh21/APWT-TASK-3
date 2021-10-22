@@ -134,9 +134,9 @@
                                 
                             </table>
                             <div class="d-flex">
-                                <a href={{route('userList')}} class="btn btn-danger btn-sm mt-3 px-3">Back</a>
+                                <a href={{route('userList')}} class="btn btn-dark btn-sm mt-3 px-3">Back</a>
                                 <div class="mx-3">
-                                    <input type="submit" value="Update" class="btn btn-primary btn-sm mt-3 px-4">
+                                    <input type="submit" value="Update" class="btn btn-dark btn-sm mt-3 px-4">
                                 </div>
                             </div>
                         </form>

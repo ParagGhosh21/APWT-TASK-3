@@ -3,7 +3,7 @@
         color: black;
     }
 </style>
-<nav class="navbar navbar-expand-lg Secondary">
+<nav class="navbar navbar-expand-lg bg-Secondary">
     <div class="container">
         <h5 class="fw-bold">Navbar</h5>
         <div class="navbar-nav ms-auto">
