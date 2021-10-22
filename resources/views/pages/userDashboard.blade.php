@@ -26,7 +26,7 @@
             <div class="py-5" style="height: 65vh;">
                 <div>
                     @if(session('user-update'))
-                    <div class="alert alert-danger font-weight-bold w-100 text-center" role="alert">
+                    <div class="alert alert-info font-weight-bold w-100 text-center" role="alert">
                         <span class="fw-bold">
                             {{ session('user-update') }}
                         </span>

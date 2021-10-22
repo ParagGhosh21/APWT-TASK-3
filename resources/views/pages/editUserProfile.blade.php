@@ -19,7 +19,7 @@
         <div class="d-flex justify-content-center align-items-center" style="
     
         width: 100%;
-        background: darkblue;
+        background: black;
         ">
             <div>
                 <div class="form-area">

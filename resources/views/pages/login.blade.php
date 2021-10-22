@@ -30,7 +30,7 @@
                             <div class="w-100">
                                 @if(session('database-error'))
                                 <div class="d-flex justify-content-center align-items-center"
-                                style="height: 30px; font-size:13px; color:red; padding:10px; width:100%; background: black; border-radius: 20px">
+                                style="height: 30px; font-size:13px; color:green; padding:10px; width:100%; background: white; border-radius: 20px">
                                     {{ session('database-error') }}
                                 </div>
                                 @endif
